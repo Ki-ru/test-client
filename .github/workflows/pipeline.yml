@@ -19,7 +19,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Installing deps
         run: |
-          npm ci
+          npm install eslint@8.26.0 prettier@8.26.0
       - name: Build
         run: |
           npx eslint --ext .js,.jsx,.ts,.tsx ./
