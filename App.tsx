@@ -94,7 +94,7 @@ function App(): JSX.Element {
                     <Section title="See Your Changes">
                         <ReloadInstructions />
                     </Section>
-                    <Section title="Debug">
+                    <Section title="Debug1">
                         <DebugInstructions />
                         <Text>a</Text>
                     </Section>
